@@ -30,6 +30,25 @@
     <div class="main-page-wrapper">
         <!--header-->
 		@include('Header.header');
+
+		<!--upcoming events-->
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="yearevnets__content" style="margin-left: 25px; margin-top:15px; cursor: pointer;">
+						<p style="color: #000;">Upcoming Events</p>
+						<ul class="yearevents">
+							<li>1.Boran Cattle Breeders  Society AGM - 17th November 2018</li>
+							<li>2.Livestock Breeders Show and Sale</li>
+							<li>3.Ayrshire Cattle Breeders Society of Kenya AGM - 7th December 2018</li>
+							<li>4.Field Days</li>
+						</ul>
+					</div>
+	
+				</div>
+			</div>
+		</div>
+		<!--upcoming event-->
 		 
 
 		@include('Partners.Partners');

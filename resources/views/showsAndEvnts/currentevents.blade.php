@@ -89,6 +89,23 @@
     <!---current events-->
           
 	<!--year national news-->
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="yearevnets__content" style="margin-left: 25px; margin-top:15px; cursor: pointer;">
+					<p style="color: #000;">Year 2016 National Shows News</p>
+					<ul class="yearevents">
+						<li>1.Aks Shows</li>
+						<li>2.Livestock Breeders Show and Sale</li>
+						<li> 3.County Shows</li>
+						<li>4.Society Shows</li>
+					</ul>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<!--year national news-->
 
     @include('Partners.Partners');
     @include('Footer.Footer');
