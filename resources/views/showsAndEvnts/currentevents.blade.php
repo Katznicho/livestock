@@ -35,6 +35,7 @@
 	  width: 100% !important;
 
 	}
+	
 
 </style>
 
@@ -90,6 +91,7 @@
           
 	<!--year national news-->
 	<div class="container">
+		
 		<div class="row">
 			<div class="col-md-12">
 				<div class="yearevnets__content" style="margin-left: 25px; margin-top:15px; cursor: pointer;">
