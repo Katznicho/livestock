@@ -79,8 +79,9 @@ ul.breadcrumb li a:hover {
 				Home</a></li>
 			<li><a href="#">
 
-				publications</a></li>
-			<li><a href="#">Annual Publications</a></li>
+				Services</a></li>
+			<li><a href="#">LiveStock Registration</a></li>
+            <li><a href="#">Official Forms</a></li>
 		
 		  </ul>
 		<!--bread crumb-->
@@ -100,13 +101,24 @@ ul.breadcrumb li a:hover {
 		<!--here-->
 			<div class="row">
 				<div class="col-md-12">
+                    <h3>Official Forms</h3>
 					<div class="yearevnets__content" style="margin-left: 25px; margin-top:15px; cursor: pointer;">
 						
 						<ul class="yearevents">
-							<li>Annual Report 2015</li>
-							<li>Prodduction Status</li>
-							<li>Audit Reports</li>
+							<li>1. Membership Form</li>
+							<li>2.Animal Registration Form</li>
+							<li>3. Milk Update Form</li>
+                            <li>4.Transfer of Ownership Forms</li>
 							
+						</ul>
+					</div>
+                    <h3>Fees</h3>
+					<div class="yearevnets__content" style="margin-left: 25px; margin-top:15px; cursor: pointer;">
+						
+						<ul class="yearevents">
+							<li>1.Membership Fees - Updated information coming soon!</li>
+							<li>2.Registration and Recording Fees</li>
+							<li>3.Payment Options</li>							
 						</ul>
 					</div>
 	

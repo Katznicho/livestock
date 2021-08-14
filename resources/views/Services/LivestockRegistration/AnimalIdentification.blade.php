@@ -79,8 +79,9 @@ ul.breadcrumb li a:hover {
 				Home</a></li>
 			<li><a href="#">
 
-				publications</a></li>
-			<li><a href="#">Annual Publications</a></li>
+				Services</a></li>
+			<li><a href="#">LiveStocl Registration</a></li>
+            <li><a href="#">Identification of Animals</a></li>
 		
 		  </ul>
 		<!--bread crumb-->
@@ -100,15 +101,19 @@ ul.breadcrumb li a:hover {
 		<!--here-->
 			<div class="row">
 				<div class="col-md-12">
-					<div class="yearevnets__content" style="margin-left: 25px; margin-top:15px; cursor: pointer;">
-						
-						<ul class="yearevents">
-							<li>Annual Report 2015</li>
-							<li>Prodduction Status</li>
-							<li>Audit Reports</li>
-							
-						</ul>
-					</div>
+				   <div class="identification">
+                       <h3>Animal Identification</h3>
+                       <div>
+                        Animal identification is the basis for keeping accurate production records of the herd/flock. Individual animal identification allows producers to keep records on an animal's parentage, birth date, production records, health history, and a host of other important management information. Accurate records provide the producer with enough information to make individual or whole herd/flock management decisions. In many instances, the producer needs to be able to quickly identify an animal. A successful identification system makes this task more efficient. Identification is also important to indicate ownership of a particular animal, or to indicate the herd/flock of origin. There are many identification systems, but selection should be based on the method that best fits an operation's needs. Factors such as size of the operation, type of records kept,and source of replacement breeding stock, determines which system(s) to choose. When selecting forms of identification, consider the application methods for each type, along with visibility from a distance, equipment needed for application, cost, permanence, and how easy or difficult the method is to apply. Two different methods should be used to assure permanent identification. Once a system has been selected, it is important to be consistent with providing each animal a unique and permanent identification number that matches with each method used. Be careful not to duplicate numbers over a minimum of a ten-year period. When an animal is born/purchased, it should be identified immediately with only one unique number, which will serve as its identification number until it departs from the herd/flock.
+                       </div>
+                       <h3>
+                        Numbering Systems
+                       </h3>
+                       <div>
+                        There are many numbering systems that can be used to identify animals in a herd. One of the most commonly used and highly recommended systems uses a combination of letters and numbers, 
+                        designating birth year and birth order respectively. 
+                       </div>
+                   </div>
 	
 				</div>
 			</div>
