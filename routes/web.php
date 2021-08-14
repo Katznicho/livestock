@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Auth\RegisterController;
 use App\Http\Controllers\Auth\LoginController;
 use App\Http\Controllers\General\ShowsAndEventsController;
+use App\Http\Controllers\General\PublicationsController;
 
 /*
 |--------------------------------------------------------------------------
@@ -39,3 +40,9 @@ Route::get('/currentevents', [ShowsAndEventsController::class , "currentEvents"]
 Route::get('/reports', [ShowsAndEventsController::class , "reports"])->name('reports');
 
 //shows and events
+
+//publications
+Route::get('/currentpublications', [PublicationsController::class , "current"])->name('currentpublications');
+Route::get('/annualpublications', [PublicationsController::class , "annual"])->name('annualpublications');
+Route::get('/societypublications', [PublicationsController::class , "society"])->name('societypublications');
+//publications

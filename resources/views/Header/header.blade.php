@@ -164,9 +164,9 @@
 						  </a>
 
 					      	<ul class="dropdown">
-					            <li><a href="#">CURRENT PUBLICATIONS</a></li>
-					            <li><a href="3">SOCEITY PUBLICATIONS</a></li>
-					            <li><a href="#">ANNUAL PUBLICATIONS</a></li>
+					            <li><a href="{{ route("currentpublications") }}">CURRENT PUBLICATIONS</a></li>
+					            <li><a href="{{ route('societypublications') }}">SOCEITY PUBLICATIONS</a></li>
+					            <li><a href="{{ route('annualpublications') }}">ANNUAL PUBLICATIONS</a></li>
 					         </ul>
 					      </li>
 					      <li><a href="#">SHOW AND EVENTS</a>
