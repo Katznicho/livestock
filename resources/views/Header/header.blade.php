@@ -129,7 +129,6 @@
 										<li><a href="#">TRAINING SERVICES</a></li>
 										<li><a href="#">INSPECTION</a></li>
 										<li><a href="#">FIND AN INSPECTOR</a></li>
-										<li><a href="#" style="display: none">HER</a></li>
 	
 									  </div>
 									  <div class="header__drop1">
@@ -137,7 +136,7 @@
 										<li><a href="#">RULES AND REGULATIONS</a></li>
 										<li><a href="#">IDENTICATION OF ANIMALS</a></li>
 										<li><a href="#">OFFICIAL FORMS AND FEES</a></li>
-										<li><a href="#">ONLINE HERD BOOK</a></li>
+										<li><a href="{{ route('login') }}">ONLINE HERD BOOK</a></li>
 	
 									  </div>
 

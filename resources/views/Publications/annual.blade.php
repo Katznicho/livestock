@@ -101,7 +101,7 @@ ul.breadcrumb li a:hover {
 			<div class="row">
 				<div class="col-md-12">
 					<div class="yearevnets__content" style="margin-left: 25px; margin-top:15px; cursor: pointer;">
-						<h5 style="color: #111;">Reports and Results</h5>
+						
 						<ul class="yearevents">
 							<li>Annual Report 2015</li>
 							<li>Prodduction Status</li>
