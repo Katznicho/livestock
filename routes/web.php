@@ -46,3 +46,9 @@ Route::get('/currentpublications', [PublicationsController::class , "current"])-
 Route::get('/annualpublications', [PublicationsController::class , "annual"])->name('annualpublications');
 Route::get('/societypublications', [PublicationsController::class , "society"])->name('societypublications');
 //publications
+
+//services
+//services
+
+//organizations
+//organizations
