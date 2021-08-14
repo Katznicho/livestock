@@ -33,8 +33,31 @@
 	  object-fit: cover !important; */
 	  object-fit: cover !important;
 	  width: 100% !important;
-
 	}
+    /* Display list items side by side */
+ul.breadcrumb li {
+  display: inline;
+  font-size: 14px;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+  color:#111;
+  text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+ color: #01447e;
+
+}
 	
 
 </style>
@@ -52,6 +75,17 @@
    -->
         <div>
             <div class="container">
+                <ul class="breadcrumb">
+                    <li><a href="#">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        Home</a></li>
+                    <li><a href="#">
+        
+                        Show & Events</a></li>
+                    <li><a href="#">Upcoming shows</a></li>
+                
+                  </ul>
+                <!--bread crumb-->
                 <div class="details-content float-left">
 
                     <div class="single-service-part clearfix col-md-12">

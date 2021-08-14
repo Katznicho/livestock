@@ -69,34 +69,35 @@ ul.breadcrumb li a:hover {
     <div class="main-page-wrapper">
         <!--header-->
 		@include('Header.header');<!--bread crumb-->
-		<ul class="breadcrumb">
-			<li><a href="#">
-                <i class="fa fa-map-marker" aria-hidden="true"></i>
-				Home</a></li>
-			<li><a href="#">
 
-				Show & Events</a></li>
-			<li><a href="#">Upcoming shows</a></li>
-		
-		  </ul>
-		<!--bread crumb-->
-		<!---here-->
-
-			<div class="events_color">
-				<div class="col-md-8">Hits: 16374</div>
-				<div class="col-md-4">
-					<i class="fa fa-print" style="margin-right: 10px; cursor:pointer;">Print</i>
-
-				    <i class="fa fa-envelope-o" aria-hidden="true" style="cursor: pointer;">Email</i>
-				</div>
-
-		</div>
-
-		 
-		<!--here-->
 
 		<!--upcoming events-->
 		<div class="container">
+			<ul class="breadcrumb">
+				<li><a href="#">
+					<i class="fa fa-map-marker" aria-hidden="true"></i>
+					Home</a></li>
+				<li><a href="#">
+	
+					Show & Events</a></li>
+				<li><a href="#">Upcoming shows</a></li>
+			
+			  </ul>
+			<!--bread crumb-->
+			<!---here-->
+	
+				<div class="events_color">
+					<div class="col-md-8">Hits: 16374</div>
+					<div class="col-md-4">
+						<i class="fa fa-print" style="margin-right: 10px; cursor:pointer;">Print</i>
+	
+						<i class="fa fa-envelope-o" aria-hidden="true" style="cursor: pointer;">Email</i>
+					</div>
+	
+			</div>
+	
+			 
+			<!--here-->
 			
 			<div class="row">
 				<div class="col-md-12">
