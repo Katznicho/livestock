@@ -90,14 +90,12 @@
 								<div class="d-flex">
 									<div class="header__drop">
 										<li><a href="#">ABOUT US</a></li>
-										<li><a href="#">HISTORY</a></li>
-										<li><a href="#">EXECUTIVE COMMITTE</a></li>
-										<li><a href="#">STAFF MEMBERS</a></li>
-										<li><a href="#">CONSTITUTION</a></li>
-										<li><a href="#">HISTORY</a></li>
-										<li><a href="#">EXECUTIVE COMMITTE</a></li>
-										<li><a href="#">BYE LAWS</a></li>
-										<li><a href="#">JOINING THE OGRANIZATION</a></li>
+										<li><a href="{{ route('/organization/aboutus/history') }}">HISTORY</a></li>
+										<li><a href="{{ route('/organization/aboutus/executive') }}">EXECUTIVE COMMITTE</a></li>
+										<li><a href="{{ route('/organization/aboutus/staffmembers') }}">STAFF MEMBERS</a></li>
+										<li><a href="{{ route('/organization/aboutus/consitution') }}">CONSTITUTION</a></li>
+										<li><a href="{{ route('/organization/aboutus/byelaws') }}">BYE LAWS</a></li>
+										<li><a href="{{ route('/organization/aboutus/joining') }}">JOINING THE OGRANIZATION</a></li>
 										<li><a href="{{ route('contactus') }}">CONTACT US</a></li>
 
 
@@ -105,9 +103,9 @@
 									  </div>
 									  <div class="header__drop1">
 										<li><a href="#">BREEDER SOCITIES</a></li>
-										<li><a href="#">BREEDER LINKS</a></li>
-										<li><a href="#">BREEDER STANDARDS</a></li>
-										<li><a href="#">MEMBERSHIP</a></li>
+										<li><a href="{{ route("/organization/breedsocieties/breedlinks") }}">BREEDER LINKS</a></li>
+										<li><a href="{{ route("/organization/breedsocieties/breedstandards") }}">BREEDER STANDARDS</a></li>
+										<li><a href="{{ route('/organization/breedsocieties/membership') }}">MEMBERSHIP</a></li>
 
 	
 									  </div>
@@ -126,30 +124,27 @@
 								  <div class="d-flex">
 									<div class="header__drop">
 										<li><a href="#">EXTENSION AND TRAINING</a></li>
-										<li><a href="#">TRAINING SERVICES</a></li>
-										<li><a href="#">INSPECTION</a></li>
-										<li><a href="#">FIND AN INSPECTOR</a></li>
+										<li><a href="{{ route('/services/extensionandtraining/trainingservices') }}">TRAINING SERVICES</a></li>
+										<li><a href="{{ route('/services/extensionandtraining/inspection') }}">INSPECTION</a></li>
+										<li><a href="{{ route('/services/extensionandtraining/findinspector') }}">FIND AN INSPECTOR</a></li>
 	
 									  </div>
 									  <div class="header__drop1">
 										<li><a href="#">LIVE STOCK REGISTRATION</a></li>
-										<li><a href="#">RULES AND REGULATIONS</a></li>
-										<li><a href="#">IDENTICATION OF ANIMALS</a></li>
-										<li><a href="#">OFFICIAL FORMS AND FEES</a></li>
+										<li><a href="{{ route('/services/extensionandtraining/rules') }}">RULES AND REGULATIONS</a></li>
+										<li><a href="{{ route('/services/livestockregistration/animalidentification') }}">IDENTICATION OF ANIMALS</a></li>
+										<li><a href="{{ route('/services/livestockregistration/officialforms') }}">OFFICIAL FORMS AND FEES</a></li>
 										<li><a href="{{ route('login') }}">ONLINE HERD BOOK</a></li>
 	
 									  </div>
 
 								  </div>
 
-									<li><a href="#">LIVE STOCK REGISTRATION</a></li>
-									<li><a href="#">RULES AND REGULATIONS</a></li>
-									<li><a href="#">IDENTICATION OF ANIMALS</a></li>
-									<li><a href="#">OFFICIAL FORMS AND FEES</a></li>
-									<li><a href="#">ONLINE HERD BOOK</a></li>
-
-								 
-
+									<li><a href="#">PERFORMANCE RECORDING</a></li>
+									<li><a href="{{ route('/services/performancerecording/technicalinformation') }}">TECHICAL INFORMATION</a></li>
+									<li><a href="{{ route('/services/performancerecording/dsrules') }}">DSRK RULES</a></li>
+									<li><a href="{{ route('/services/performancerecording/submitmilkdata') }}">SUBMIT MILK DATA</a></li>
+								
 
 					         </ul>
 
