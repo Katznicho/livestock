@@ -26,44 +26,44 @@
 		border-radius: 20px !important;
 	}
 		/* Style the list */
-ul.breadcrumb {
-  padding: 4px 16px;
-  list-style: none;
-  /* background-color: #eee; */
-}
-.events_color{
-	  background-color: #eee !important;
-	  padding: 30px !important;
-	  width: 100%;
-	  height: 10vh !important ;
-	  border-radius: 10px !important;
+	ul.breadcrumb {
+	padding: 4px 16px;
+	list-style: none;
+	/* background-color: #eee; */
+	}
+	.events_color{
+		background-color: #eee !important;
+		padding: 30px !important;
+		width: 100%;
+		height: 10vh !important ;
+		border-radius: 10px !important;
 
-}
+	}
 
-/* Display list items side by side */
-ul.breadcrumb li {
-  display: inline;
-  font-size: 14px;
-}
+	/* Display list items side by side */
+	ul.breadcrumb li {
+	display: inline;
+	font-size: 14px;
+	}
 
-/* Add a slash symbol (/) before/behind each list item */
-ul.breadcrumb li+li:before {
-  padding: 8px;
-  color: black;
-  content: "/\00a0";
-}
+	/* Add a slash symbol (/) before/behind each list item */
+	ul.breadcrumb li+li:before {
+	padding: 8px;
+	color: black;
+	content: "/\00a0";
+	}
 
-/* Add a color to all links inside the list */
-ul.breadcrumb li a {
-  color:#111;
-  text-decoration: none;
-}
+	/* Add a color to all links inside the list */
+	ul.breadcrumb li a {
+	color:#111;
+	text-decoration: none;
+	}
 
-/* Add a color on mouse-over */
-ul.breadcrumb li a:hover {
- color: #01447e;
+	/* Add a color on mouse-over */
+	ul.breadcrumb li a:hover {
+	color: #01447e;
 
-}
+	}
 </style>
 <body>
     <div class="main-page-wrapper">
@@ -74,48 +74,34 @@ ul.breadcrumb li a:hover {
 		<div class="container">
 			 <!--bread crumb-->
 		<ul class="breadcrumb">
-			<li><a href="#">
-                <i class="fa fa-map-marker" aria-hidden="true"></i>
-				Home</a></li>
-			<li><a href="#">
-
-				publications</a></li>
-			<li><a href="#">Annual Publications</a></li>
-		
-		  </ul>
+			<li>
+				<a href="#"> <i class="fa fa-map-marker" aria-hidden="true"></i> Home </a>
+			</li>
+			<li><a href="#"> Organisation </a></li>
+			<li><a href="#"> Bye Laws </a></li>
+		</ul>
 		<!--bread crumb-->
 		<!---here-->
 
-			<div class="events_color">
-				<div class="col-md-8">Hits: 16374</div>
-				<div class="col-md-4">
-					<i class="fa fa-print" style="margin-right: 10px; cursor:pointer;">Print</i>
-
-				    <i class="fa fa-envelope-o" aria-hidden="true" style="cursor: pointer;">Email</i>
-				</div>
-
-		</div>
-
+		<section class="entry-content media"> 
+																					<p> </p>
+<p><strong>Terms and Conditions of Membership</strong></p>
+<p><strong class="b">Your subscription to this service is subject to the following terms &amp; conditions. Posting your details to this database is a tacit ackowledgement to be bound by these terms &amp; conditions.</strong></p>
+<p><strong><em><span class="s1">Preamble</span></em></strong></p>
+<p class="s1">The use of “You” or "Member "in this document shall be construed to mean the farmer, breeder or partner. “KLBO ” or “We” shall mean Kenya Livestock Breeders Organization, its employees, directors and authorized agents. “partner” shall mean any entity using this database for purposes of their efforts in following up collaborative work with KLBO.</p>
+<ol>
+<li class="s1">Our service to You is limited to keeping Your details in our database and making it available to KLBO and our Partners..</li>
+<li class="s1">If we decide to contact You, we may do so directly or through this website, using the contacts You shall have provided.</li>
+<li class="s1">You must expressly acknowledge that any use of information we gain from You will be at Your own risk, so the information provided by you should be <strong>accurate</strong> as possible to avoid you any inconveniences.</li>
+<li class="s1">You must warrant that all information You provide to KLBO does not breach any law or the rights of any person or entity or farm.</li>
+<li class="s1">You must not impersonate any person or farm or partner, falsely state, or otherwise misrepresent Your affiliation with a person or farm or partner.</li>
+</ol>
+<p> </p>
+<p><div class ="embed-container native-embed-container">
+				<!-- <embed src="http://localhost/bpii/files/pdf/KLBO Rules on Registration.pdf" style="width:100%; height:300px;"frameborder="1"/></div></p> -->
 		 
-		<!--here-->
-			<div class="row">
-				<div class="col-md-12">
-					<div class="yearevnets__content" style="margin-left: 25px; margin-top:15px; cursor: pointer;">
-						
-						<ul class="yearevents">
-							<li>Annual Report 2015</li>
-							<li>Prodduction Status</li>
-							<li>Audit Reports</li>
-							
-						</ul>
-					</div>
-	
-				</div>
-			</div>
-		</div>
-		<!--reports-->
-		 
-
+</div>
+</div>
 		@include('Partners.Partners');
 		@include('Footer.Footer');
     

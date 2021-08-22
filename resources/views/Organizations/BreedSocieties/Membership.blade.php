@@ -74,15 +74,12 @@ ul.breadcrumb li a:hover {
 		<div class="container">
 			 <!--bread crumb-->
 		<ul class="breadcrumb">
-			<li><a href="#">
-                <i class="fa fa-map-marker" aria-hidden="true"></i>
-				Home</a></li>
-			<li><a href="#">
-
-				publications</a></li>
-			<li><a href="#">Annual Publications</a></li>
-		
-		  </ul>
+			<li>
+				<a href="#"> <i class="fa fa-map-marker" aria-hidden="true"></i> Home </a>
+			</li>
+			<li><a href="#"> Organisation </a></li>
+			<li><a href="#"> History </a></li>
+		</ul>
 		<!--bread crumb-->
 		<!---here-->
 

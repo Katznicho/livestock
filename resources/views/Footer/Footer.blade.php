@@ -10,10 +10,10 @@
                              UseFul Links
 
 							<ul>
-								<li><a href="about-us.html" class="tran3s">Aricluture Society of Kenya</a></li>
-								<li><a href="#" class="tran3s">Kenya Board</a></li>
+								<li><a href="about-us.html" class="tran3s">Aricluture Society of Uganda</a></li>
+								<li><a href="#" class="tran3s">Uganda Board</a></li>
 								<li><a href="#" class="tran3s">Agricluture Diary</a></li>
-								<li><a href="#" class="tran3s">Kenya Diary</a></li>
+								<li><a href="#" class="tran3s">Uganda Diary</a></li>
 							</ul>
 						</div> <!-- /.footer-logo -->
 
@@ -23,8 +23,8 @@
 							<ul>
 								<li>
 									<h6><a href="blog-details.html" class="tran3s">
-                                        The Kenya Livestock Breeders Association (KLBA) is an independent farmers body formed to coordinate and promote livestock breeding and improvement. It is the only national body dealing with 
-                                        livestock registration and milk recording in Kenya.
+                                        The Uganda Livestock Breeders Association (UGLBA) is an independent farmers body formed to coordinate and promote livestock breeding and improvement. It is the only national body dealing with 
+                                        livestock registration and milk recording in Uganda.
                                     </a></h6>
 									<span>FEBRUARY 23, 2017</span>
 								</li>

@@ -26,44 +26,44 @@
 		border-radius: 20px !important;
 	}
 		/* Style the list */
-ul.breadcrumb {
-  padding: 4px 16px;
-  list-style: none;
-  /* background-color: #eee; */
-}
-.events_color{
-	  background-color: #eee !important;
-	  padding: 30px !important;
-	  width: 100%;
-	  height: 10vh !important ;
-	  border-radius: 10px !important;
+	ul.breadcrumb {
+	padding: 4px 16px;
+	list-style: none;
+	/* background-color: #eee; */
+	}
+	.events_color{
+		background-color: #eee !important;
+		padding: 30px !important;
+		width: 100%;
+		height: 10vh !important ;
+		border-radius: 10px !important;
 
-}
+	}
 
-/* Display list items side by side */
-ul.breadcrumb li {
-  display: inline;
-  font-size: 14px;
-}
+	/* Display list items side by side */
+	ul.breadcrumb li {
+	display: inline;
+	font-size: 14px;
+	}
 
-/* Add a slash symbol (/) before/behind each list item */
-ul.breadcrumb li+li:before {
-  padding: 8px;
-  color: black;
-  content: "/\00a0";
-}
+	/* Add a slash symbol (/) before/behind each list item */
+	ul.breadcrumb li+li:before {
+	padding: 8px;
+	color: black;
+	content: "/\00a0";
+	}
 
-/* Add a color to all links inside the list */
-ul.breadcrumb li a {
-  color:#111;
-  text-decoration: none;
-}
+	/* Add a color to all links inside the list */
+	ul.breadcrumb li a {
+	color:#111;
+	text-decoration: none;
+	}
 
-/* Add a color on mouse-over */
-ul.breadcrumb li a:hover {
- color: #01447e;
+	/* Add a color on mouse-over */
+	ul.breadcrumb li a:hover {
+	color: #01447e;
 
-}
+	}
 </style>
 <body>
     <div class="main-page-wrapper">
@@ -74,46 +74,200 @@ ul.breadcrumb li a:hover {
 		<div class="container">
 			 <!--bread crumb-->
 		<ul class="breadcrumb">
-			<li><a href="#">
-                <i class="fa fa-map-marker" aria-hidden="true"></i>
-				Home</a></li>
-			<li><a href="#">
-
-				publications</a></li>
-			<li><a href="#">Annual Publications</a></li>
-		
-		  </ul>
+			<li>
+				<a href="#"> <i class="fa fa-map-marker" aria-hidden="true"></i> Home </a>
+			</li>
+			<li><a href="#"> Organisation </a></li>
+			<li><a href="#"> Breed Societies </a></li>
+			<li><a href="#"> Breed Links </a></li>
+		</ul>
 		<!--bread crumb-->
 		<!---here-->
 
-			<div class="events_color">
-				<div class="col-md-8">Hits: 16374</div>
-				<div class="col-md-4">
-					<i class="fa fa-print" style="margin-right: 10px; cursor:pointer;">Print</i>
+			
+		<section class="entry-content media"> 
+																					<h3>Breeds Societies for different Species </h3>
+<p>The Kenya Livestock Breeders Organization brings together all the livestock keepers in Kenya who have come together to register and improve their breeds. </p>
+<p>We have a total of 30 breeds currently registered as follows; Cattle = 17, Goat = 5, Sheep = 6 and Pig = 2 </p>
+<p><div class="accordion" id="sc-accordion"><div class="accordion-group"><div class="accordion-heading"><a class="accordion-toggle" data-toggle="collapse" data-parent="#sc-accordion" href="#species---cattle">Species - Cattle</a></div><div id="species---cattle" class="accordion-body collapse in"><div class="accordion-inner"></p>
+<table style="height: 488px; border-color: #f0f0f0; margin-left: auto; margin-right: auto;" width="905">
+<tbody>
+<tr>
+<td style="width: 300px; background-color: #59c5f0;">
+<p><strong>Breed</strong></p>
+</td>
+<td style="width: 300px; background-color: #59c5f0;">
+<p><strong>Breed Society</strong></p>
+</td>
+</tr>
+<tr>
+<td>Aberdeen Angus</td>
+<td> </td>
+</tr>
+<tr>
+<td style="width: 100px; background-color: #f0f0f0;">Ayrshire</td>
+<td style="background-color: #f0f0f0;">Ayrshire Cattle Breeders Society of Kenya</td>
+</tr>
+<tr>
+<td>Boran</td>
+<td><a title="Boran Cattle Breeders Society of Kenya " href="http://www.bcbs.org/" target="_blank" rel="alternate">Boran Cattle Breeders Society of Kenya</a></td>
+</tr>
+<tr>
+<td style="width: 100px; background-color: #f0f0f0;">Brahman</td>
+<td style="background-color: #f0f0f0;"> </td>
+</tr>
+<tr>
+<td>Brown Swiss</td>
+<td> </td>
+</tr>
+<tr>
+<td style="width: 100px; background-color: #f0f0f0;">Charolais</td>
+<td style="background-color: #f0f0f0;"> </td>
+</tr>
+<tr>
+<td>Fleckvieh</td>
+<td><a title="FGEAL" href="http://www.fleckviehgeneticsea.com/" target="_blank" rel="alternate">Fleckvieh Genetics East Africa Ltd</a></td>
+</tr>
+<tr>
+<td style="width: 100px; background-color: #f0f0f0;">Holstein Friesian</td>
+<td style="background-color: #f0f0f0;">Holstein Friesian Cattle Breeders Society of Kenya</td>
+</tr>
+<tr>
+<td>Guernsey</td>
+<td>Guernsey Cattle Breeders Society of Kenya</td>
+</tr>
+<tr>
+<td style="width: 100px; background-color: #f0f0f0;">Hereford</td>
+<td style="background-color: #f0f0f0;"> </td>
+</tr>
+<tr>
+<td>Jersey</td>
+<td>Jersey Cattle Breeders Society of Kenya</td>
+</tr>
+<tr>
+<td style="width: 100px; background-color: #f0f0f0;">Limousine</td>
+<td style="background-color: #f0f0f0;"> </td>
+</tr>
+<tr>
+<td>Piemontese</td>
+<td> </td>
+</tr>
+<tr>
+<td style="width: 100px; background-color: #f0f0f0;">Red Poll</td>
+<td style="background-color: #f0f0f0;"> </td>
+</tr>
+<tr>
+<td>Sahiwal</td>
+<td>Sahiwal Cattle Breeders Society of Kenya</td>
+</tr>
+<tr>
+<td style="width: 100px; background-color: #f0f0f0;">Santa Getrudis</td>
+<td style="background-color: #f0f0f0;"> </td>
+</tr>
+<tr>
+<td>Simmental</td>
+<td> </td>
+</tr>
+</tbody>
+</table>
+<p></div></div></div><div class="accordion-group"><div class="accordion-heading"><a class="accordion-toggle" data-toggle="collapse" data-parent="#sc-accordion" href="#species---goat">Species - Goat</a></div><div id="species---goat" class="accordion-body collapse"><div class="accordion-inner"></p>
+<table style="height: 188px; border-color: #f0f0f0; margin-left: auto; margin-right: auto;" width="899">
+<tbody>
+<tr>
+<td style="width: 300px; background-color: #59c5f0;">
+<p><strong>Breed</strong></p>
+</td>
+<td style="width: 300px; background-color: #59c5f0;">
+<p><strong>Breed Society</strong></p>
+</td>
+</tr>
+<tr>
+<td>Boer Goat</td>
+<td> </td>
+</tr>
+<tr>
+<td style="background-color: #f0f0f0;">Galla Goat</td>
+<td style="background-color: #f0f0f0;">Galla Goat Breeders Society of Kenya</td>
+</tr>
+<tr>
+<td>Kenya Alpine Goat</td>
+<td><a title="Dairy Goats Association of Kenya" href="http://www.dgak.crg/" target="_blank" rel="alternate">Dairy Goats Association of Kenya</a></td>
+</tr>
+<tr>
+<td style="background-color: #f0f0f0;">Saanen</td>
+<td style="background-color: #f0f0f0;"> </td>
+</tr>
+<tr>
+<td>Toggernburg</td>
+<td> </td>
+</tr>
+</tbody>
+</table>
+<p></div></div></div><div class="accordion-group"><div class="accordion-heading"><a class="accordion-toggle" data-toggle="collapse" data-parent="#sc-accordion" href="#species---sheep">Species - Sheep</a></div><div id="species---sheep" class="accordion-body collapse"><div class="accordion-inner"></p>
+<table style="height: 202px; border-color: #f0f0f0; margin-left: auto; margin-right: auto;" width="901">
+<tbody>
+<tr>
+<td style="width: 300px; background-color: #59c5f0;">
+<p><strong>Breed</strong></p>
+</td>
+<td style="width: 300px; background-color: #59c5f0;">
+<p><strong>Breed Society</strong></p>
+</td>
+</tr>
+<tr>
+<td>Corriedale</td>
+<td> </td>
+</tr>
+<tr>
+<td style="background-color: #f0f0f0;">Dorper</td>
+<td style="background-color: #f0f0f0;">Dorper Sheep Association of Kenya</td>
+</tr>
+<tr>
+<td>Hampshire Down</td>
+<td> </td>
+</tr>
+<tr>
+<td style="background-color: #f0f0f0;">Merino</td>
+<td style="background-color: #f0f0f0;"> </td>
+</tr>
+<tr>
+<td>Persian Black Head</td>
+<td> </td>
+</tr>
+<tr>
+<td style="background-color: #f0f0f0;">Red Maasai</td>
+<td style="background-color: #f0f0f0;"> </td>
+</tr>
+</tbody>
+</table>
+<p></div></div></div><div class="accordion-group"><div class="accordion-heading"><a class="accordion-toggle" data-toggle="collapse" data-parent="#sc-accordion" href="#species---pig">Species - Pig</a></div><div id="species---pig" class="accordion-body collapse"><div class="accordion-inner"></p>
+<table style="height: 129px; border-color: #f0f0f0; margin-left: auto; margin-right: auto;" width="895">
+<tbody>
+<tr>
+<td style="width: 300px; background-color: #59c5f0;">
+<p><strong>Breed</strong></p>
+</td>
+<td style="width: 300px; background-color: #59c5f0;">
+<p><strong>Breed Society</strong></p>
+</td>
+</tr>
+<tr>
+<td>Large White</td>
+<td> </td>
+</tr>
+<tr>
+<td style="background-color: #f0f0f0;">Landrace</td>
+<td style="background-color: #f0f0f0;"> </td>
+</tr>
+<tr>
+<td> </td>
+<td> </td>
+</tr>
+</tbody>
+</table>
+<p></div></div></div></div></p>
+</div>
 
-				    <i class="fa fa-envelope-o" aria-hidden="true" style="cursor: pointer;">Email</i>
-				</div>
-
-		</div>
-
-		 
-		<!--here-->
-			<div class="row">
-				<div class="col-md-12">
-					<div class="yearevnets__content" style="margin-left: 25px; margin-top:15px; cursor: pointer;">
-						
-						<ul class="yearevents">
-							<li>Annual Report 2015</li>
-							<li>Prodduction Status</li>
-							<li>Audit Reports</li>
-							
-						</ul>
-					</div>
-	
-				</div>
-			</div>
-		</div>
-		<!--reports-->
 		 
 
 		@include('Partners.Partners');

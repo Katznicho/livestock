@@ -26,44 +26,44 @@
 		border-radius: 20px !important;
 	}
 		/* Style the list */
-ul.breadcrumb {
-  padding: 4px 16px;
-  list-style: none;
-  /* background-color: #eee; */
-}
-.events_color{
-	  background-color: #eee !important;
-	  padding: 30px !important;
-	  width: 100%;
-	  height: 10vh !important ;
-	  border-radius: 10px !important;
+	ul.breadcrumb {
+	padding: 4px 16px;
+	list-style: none;
+	/* background-color: #eee; */
+	}
+	.events_color{
+		background-color: #eee !important;
+		padding: 30px !important;
+		width: 100%;
+		height: 10vh !important ;
+		border-radius: 10px !important;
 
-}
+	}
 
-/* Display list items side by side */
-ul.breadcrumb li {
-  display: inline;
-  font-size: 14px;
-}
+	/* Display list items side by side */
+	ul.breadcrumb li {
+	display: inline;
+	font-size: 14px;
+	}
 
-/* Add a slash symbol (/) before/behind each list item */
-ul.breadcrumb li+li:before {
-  padding: 8px;
-  color: black;
-  content: "/\00a0";
-}
+	/* Add a slash symbol (/) before/behind each list item */
+	ul.breadcrumb li+li:before {
+	padding: 8px;
+	color: black;
+	content: "/\00a0";
+	}
 
-/* Add a color to all links inside the list */
-ul.breadcrumb li a {
-  color:#111;
-  text-decoration: none;
-}
+	/* Add a color to all links inside the list */
+	ul.breadcrumb li a {
+	color:#111;
+	text-decoration: none;
+	}
 
-/* Add a color on mouse-over */
-ul.breadcrumb li a:hover {
- color: #01447e;
+	/* Add a color on mouse-over */
+	ul.breadcrumb li a:hover {
+	color: #01447e;
 
-}
+	}
 </style>
 <body>
     <div class="main-page-wrapper">
@@ -74,47 +74,30 @@ ul.breadcrumb li a:hover {
 		<div class="container">
 			 <!--bread crumb-->
 		<ul class="breadcrumb">
-			<li><a href="#">
-                <i class="fa fa-map-marker" aria-hidden="true"></i>
-				Home</a></li>
-			<li><a href="#">
-
-				publications</a></li>
-			<li><a href="#">Annual Publications</a></li>
-		
-		  </ul>
+			<li>
+				<a href="#"> <i class="fa fa-map-marker" aria-hidden="true"></i> Home </a>
+			</li>
+			<li><a href="#"> Organisation </a></li>
+			<li><a href="#"> Breed Societies </a></li>
+			<li><a href="#"> Breed Standards </a></li>
+		</ul>
 		<!--bread crumb-->
 		<!---here-->
 
-			<div class="events_color">
-				<div class="col-md-8">Hits: 16374</div>
-				<div class="col-md-4">
-					<i class="fa fa-print" style="margin-right: 10px; cursor:pointer;">Print</i>
-
-				    <i class="fa fa-envelope-o" aria-hidden="true" style="cursor: pointer;">Email</i>
-				</div>
-
-		</div>
-
-		 
-		<!--here-->
-			<div class="row">
-				<div class="col-md-12">
-					<div class="yearevnets__content" style="margin-left: 25px; margin-top:15px; cursor: pointer;">
-						
-						<ul class="yearevents">
-							<li>Annual Report 2015</li>
-							<li>Prodduction Status</li>
-							<li>Audit Reports</li>
-							
-						</ul>
-					</div>
+		
+		<div class="container">
+		<p><strong>Breed Standards</strong></p>
+<p class="s1">A Breed is an animal with a common origin and selection history. Animals within a breed have physical characteristics that distinguish them from other breeds or groups of animals within that same species. At Kenya Livestock Breeders Association, Various breeds societies have a mandate to set and establish breeds standards which are rules set that guides inspectors in selection of desired breed traits.</p>
+<p class="s1">Farmers are advised to contact the various <a href="index.php/organization/breed-societies/breeder-links" rel="alternate">breed societies</a> and inspectors for guidance on breeds standards for particular breeds.</p>
+<p class="s1">The ultimate goal in working with breeds associations is helping farmers to select breeds for desired traits and improving the standards in every successive generation.</p>								
 	
-				</div>
-			</div>
+		
 		</div>
-		<!--reports-->
-		 
+		</div>
+
+
+
+
 
 		@include('Partners.Partners');
 		@include('Footer.Footer');

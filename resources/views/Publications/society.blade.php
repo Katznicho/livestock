@@ -102,12 +102,12 @@ ul.breadcrumb li a:hover {
 				<div class="col-md-12">
 					<div class="yearevnets__content" style="margin-left: 25px; margin-top:15px; cursor: pointer;">
 						
-						<ul class="yearevents">
+						<ol class="yearevents">
 							<li>Boran Cattle Breeders Society Newsletter March 2012</li>
 							<li>Information Flyer</li>
 							<li>Presentations</li>
 							<li>Articles</li>
-						</ul>
+						</ol>
 					</div>
 	
 				</div>

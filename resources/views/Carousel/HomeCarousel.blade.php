@@ -83,7 +83,7 @@
                         data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
                         data-mask_in="x:0px;y:[100%];" data-mask_out="x:inherit;y:inherit;" data-start="1000"
                         data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 6;">
-                        <h3>Welcome to Kenyan LiveStock Breeders Assocations</h3>
+                        <h3>Welcome to Ugandan LiveStock Breeders Assocations</h3>
                     </div>
                     <!-- LAYER NR. 2 -->
                     <div class="tp-caption" data-x="['left','left','left','center']" data-hoffset="['0','0','0','0']"
@@ -95,7 +95,7 @@
                         data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 6;">
                         <div class="header__words">
                             Training of Extension livestock breeds inspectors
-                            The Kenya Stud Book works with the various breed societies to train breeds inspectors across
+                            The Uganda Stud Book works with the various breed societies to train breeds inspectors across
                             the country to assist them in carrying out field extension work .
                         </div>
                     </div>
@@ -122,7 +122,7 @@
                         data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
                         data-mask_in="x:0px;y:[100%];" data-mask_out="x:inherit;y:inherit;" data-start="1000"
                         data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 6;">
-                        <h3>Welcome to Kenyan LiveStock Breeders Assocations</h3>
+                        <h3>Welcome to Ugandan LiveStock Breeders Assocations</h3>
                     </div>
                     <!-- LAYER NR. 2 -->
                     <div class="tp-caption" data-x="['left','left','left','center']" data-hoffset="['0','0','0','0']"
@@ -134,7 +134,7 @@
                         data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 6;">
                         <div class="header__words">
                             Training of Extension livestock breeds inspectors
-                            The Kenya Stud Book works with the various breed societies to train breeds inspectors across
+                            The Uganda Stud Book works with the various breed societies to train breeds inspectors across
                             the country to assist them in carrying out field extension work .
                         </div>
                     </div>
@@ -161,7 +161,7 @@
                         data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
                         data-mask_in="x:0px;y:[100%];" data-mask_out="x:inherit;y:inherit;" data-start="1000"
                         data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 6;">
-                        <h3>Welcome to Kenyan LiveStock Breeders Assocations</h3>
+                        <h3>Welcome to Ugandan LiveStock Breeders Assocations</h3>
                     </div>
                     <!-- LAYER NR. 2 -->
                     <div class="tp-caption" data-x="['left','left','left','center']" data-hoffset="['0','0','0','0']"
@@ -173,7 +173,7 @@
                         data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 6;">
                         <div class="header__words">
                             Training of Extension livestock breeds inspectors
-                            The Kenya Stud Book works with the various breed societies to train breeds inspectors across
+                            The Uganda Stud Book works with the various breed societies to train breeds inspectors across
                             the country to assist them in carrying out field extension work .
                         </div>
                     </div>

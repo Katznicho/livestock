@@ -102,13 +102,13 @@ ul.breadcrumb li a:hover {
 				<div class="col-md-12">
 					<div class="yearevnets__content" style="margin-left: 25px; margin-top:15px; cursor: pointer;">
 					
-						<ul class="yearevents">
+						<ol class="yearevents">
 							<li>Information Booklet</li>
 							<li>Information Flyer</li>
 							<li>Presenations</li>
 							<li>Articles</li>
 							
-						</ul>
+						</ol>
 					</div>
 	
 				</div>

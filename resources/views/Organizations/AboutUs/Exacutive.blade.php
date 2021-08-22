@@ -74,47 +74,64 @@ ul.breadcrumb li a:hover {
 		<div class="container">
 			 <!--bread crumb-->
 		<ul class="breadcrumb">
-			<li><a href="#">
-                <i class="fa fa-map-marker" aria-hidden="true"></i>
-				Home</a></li>
-			<li><a href="#">
-
-				publications</a></li>
-			<li><a href="#">Annual Publications</a></li>
-		
-		  </ul>
+			<li>
+				<a href="#"> <i class="fa fa-map-marker" aria-hidden="true"></i> Home </a>
+			</li>
+			<li><a href="#"> Organisation </a></li>
+			<li><a href="#"> Executive Committee </a></li>
+		</ul>
 		<!--bread crumb-->
 		<!---here-->
 
-			<div class="events_color">
-				<div class="col-md-8">Hits: 16374</div>
-				<div class="col-md-4">
-					<i class="fa fa-print" style="margin-right: 10px; cursor:pointer;">Print</i>
+		<div class="container">
+		<h2>The Executive Committee</h2>
+			<table>
+				<tr>
+				<td><img src="http://klba.or.ke/images/Members/1.jpg" height="250px" style="padding:20px;" alt="First Person"/></td>
+				<td><img src="http://klba.or.ke/images/Members/1.jpg" height="250px" style="padding:20px;" alt="First Person"/></td>
+				<td><img src="http://klba.or.ke/images/Members/1.jpg" height="250px" style="padding:20px;" alt="First Person"/></td>
+				<td><img src="http://klba.or.ke/images/Members/1.jpg" height="250px" style="padding:20px;" alt="First Person"/></td>
+				</tr>
 
-				    <i class="fa fa-envelope-o" aria-hidden="true" style="cursor: pointer;">Email</i>
-				</div>
+				<tr>
+				<td style="padding-left:20px;"><b>Full Name</b></td>
+				<td style="padding-left:20px;"><b>Full Name</b></td>
+				<td style="padding-left:20px;"><b>Full Name</b></td>
+				<td style="padding-left:20px;"><b>Full Name</b></td>
+				</tr>
 
+				<tr>
+				<td style="padding-left:20px;">Their Location</td>
+				<td style="padding-left:20px;">Their Location</td>
+				<td style="padding-left:20px;">Their Location</td>
+				<td style="padding-left:20px;">Their Location</td>
+				</tr>
+
+
+
+				<tr>
+				<td><img src="http://klba.or.ke/images/Members/1.jpg" height="250px" style="padding:20px;" alt="First Person"/></td>
+				<td><img src="http://klba.or.ke/images/Members/1.jpg" height="250px" style="padding:20px;" alt="First Person"/></td>
+				<td><img src="http://klba.or.ke/images/Members/1.jpg" height="250px" style="padding:20px;" alt="First Person"/></td>
+				</tr>
+
+				<tr>
+				<td style="padding-left:20px;"><b>Full Name</b></td>
+				<td style="padding-left:20px;"><b>Full Name</b></td>
+				<td style="padding-left:20px;"><b>Full Name</b></td>
+				</tr>
+
+				<tr>
+				<td style="padding-left:20px;">Their Location</td>
+				<td style="padding-left:20px;">Their Location</td>
+				<td style="padding-left:20px;">Their Location</td>
+				</tr>
+			</table>
+			
+
+		
 		</div>
-
-		 
-		<!--here-->
-			<div class="row">
-				<div class="col-md-12">
-					<div class="yearevnets__content" style="margin-left: 25px; margin-top:15px; cursor: pointer;">
-						
-						<ul class="yearevents">
-							<li>Annual Report 2015</li>
-							<li>Prodduction Status</li>
-							<li>Audit Reports</li>
-							
-						</ul>
-					</div>
-	
-				</div>
-			</div>
-		</div>
-		<!--reports-->
-		 
+	</div>
 
 		@include('Partners.Partners');
 		@include('Footer.Footer');

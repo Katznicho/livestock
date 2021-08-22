@@ -103,9 +103,9 @@
 									  </div>
 									  <div class="header__drop1">
 										<li><a href="#">BREEDER SOCITIES</a></li>
-										<li><a href="{{ route("/organization/breedsocieties/breedlinks") }}">BREEDER LINKS</a></li>
-										<li><a href="{{ route("/organization/breedsocieties/breedstandards") }}">BREEDER STANDARDS</a></li>
-										<li><a href="{{ route('/organization/breedsocieties/membership') }}">MEMBERSHIP</a></li>
+										<li><a href="{{ route('/organization/breedsocieties/breedlinks') }}">BREEDER LINKS</a></li>
+										<li><a href="{{ route('/organization/breedsocieties/breedstandards') }}">BREEDER STANDARDS</a></li>
+										<li><a href="{{ route('login') }}">MEMBERSHIP</a></li>
 
 	
 									  </div>
